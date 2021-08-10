@@ -1,0 +1,212 @@
+/*--------------- poppins google fonts  ------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+   
+}
+a{
+    text-decoration: none;
+}
+
+/*---------- navigation start --------------*/
+.navbar-nav 
+{
+    margin-right: 6rem;
+}
+
+/*------ header section start -----*/
+
+.header-section
+{
+    background-color: #264653;
+}
+.header-details
+{
+    margin-top: 7.5rem;
+    margin-bottom: 15rem;
+}
+.header-title
+{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.header-description
+{
+    color:#E0E0E0;
+    font-weight: 300;
+}
+.purchase-button
+{
+    
+    background-color: #E76F51;
+    border: none;
+    border-radius: 5px;
+    
+}
+.header-image
+{
+    margin-top:4.5rem;
+    margin-bottom: 6rem;
+}
+
+/*-------------------- Fetured Bikes 2021 start -------------*/
+.fetured-collection
+{
+    color:#E76F51;
+}
+.underline
+{
+    
+    width:10%;
+    border: 1px solid #E76F51;
+    border-radius: 1px;
+    margin-left:auto ;
+    margin-right:auto ;
+}
+.grayscle-img
+{
+    filter:grayscale(100%);
+}
+
+
+/*----------------- happy clients says section ---------------*/
+.happy-clients
+{
+    margin-top:10rem;
+    
+}
+.section-title{
+    font-size: 3rem;
+}
+.section-title-color
+{
+    color:#E76F51;
+}
+.card-image
+{
+   
+    width: 149px;
+   height: 149px;
+   margin-left: calc(50% - 149px/2);
+   margin-top: 40px;
+}
+.card-image-last
+{
+    border-radius: 50%;
+}
+.card-text
+{
+    color:#6C6C6C;
+}
+.fas
+{
+    color:#E77C40;
+}
+.far
+{
+    color:#E77C40;
+}
+
+/*----------- faq section --------------*/
+.faq-image
+{
+    width: 80%;
+    
+}
+.accordion-button:not(.collapsed) {
+    color: #383838;
+    background-color: #ffff;
+    box-shadow:none;
+}
+.accordion-body
+{
+    color:#7E848C;
+}
+
+/*----------------- Contact with us ---------------*/
+.contact-bg
+{
+    background-color: #264653;
+}
+
+
+/*---------------- footer section start -------------*/
+.footer-section
+{
+    background-color: #0B0D17;
+}
+.footer-list ul 
+{
+    list-style: none;
+    padding-left:0;
+}
+.footer-list ul li 
+{
+    display: inline;
+    margin-right:1rem;
+}
+.footer-copywrite
+{
+    color:#D9DBE1;
+}
+.footer1 
+{
+    Width:60%;
+}
+.footer2
+{
+    Width:50%;
+}
+/*--------------- using media query ----------------*/
+
+@media only screen and (max-width:576px)  {
+
+    /* header section */
+
+.header-details
+     {
+    margin-top: 3rem;
+    margin-bottom:0rem;
+    
+    }
+.header-title
+  {
+    font-size: 2.2rem;
+  }
+.header-image
+    {
+    margin-top:3.5rem;
+    margin-bottom: 2rem;
+    }
+
+    /* faq question section */
+.faq-image
+{
+    width: 100%;
+    
+}
+
+
+}
+
+/* medium device */
+
+@media only screen and (max-width:768px) 
+{
+    .header-details
+    {
+   margin-top: 3rem;
+   margin-bottom:0rem;
+   
+   }
+.header-title
+ {
+   font-size: 2.2rem;
+ }
+.header-image
+   {
+   margin-top:3.5rem;
+   margin-bottom: 2rem;
+   }
+}
